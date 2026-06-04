@@ -11,6 +11,7 @@
 body {
   background: #eef0f5;
   color: #1f1f27;
+  position: relative;
 }
 
 img {
@@ -112,6 +113,10 @@ section p {
   color: #444654;
 }
 
+#about > p {
+  background: #f7f8fb;
+}
+
 .skills_ul {
   display: grid;
   grid-template-columns: repeat(auto-fit, minmax(140px, 1fr));
@@ -163,6 +168,7 @@ section p {
 .contact_div {
   display: grid;
   gap: 15px;
+  background: #f7f8fb;
 }
 
 .contact_div > p svg {
@@ -178,6 +184,10 @@ section p {
   word-break: break-word;
   white-space: normal;
   min-width: 0;
+}
+
+#strengths > p {
+  background: #f7f8fb;
 }
 
 footer {
@@ -215,9 +225,10 @@ footer {
 @media screen and (min-width: 1024px) {
   header {
     display: grid;
+    grid-template-columns: 1fr;
     gap: 10px;
     padding: 38px 0 28px;
-    text-align: left;
+    text-align: center;
   }
 
   header h1 {
@@ -227,6 +238,10 @@ footer {
   header p {
     margin-top: 0;
     font-size: 1.05rem;
+  }
+
+  nav ul {
+    justify-content: center;
   }
 
   main {

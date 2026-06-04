@@ -112,7 +112,7 @@ section p {
   color: #444654;
 }
 
-.skills ul {
+.skills_ul {
   display: grid;
   grid-template-columns: repeat(auto-fit, minmax(140px, 1fr));
   gap: 14px;
@@ -121,12 +121,10 @@ section p {
   margin: 0;
 }
 
-.skills li {
+.skills_ul > li {
   display: flex;
   align-items: center;
   gap: 10px;
-  padding: 10px 15px;
-  border-radius: 18px;
   background: #f7f8fb;
   color: #22232f;
   font-weight: 700;
@@ -137,7 +135,7 @@ section p {
   min-width: 0;
 }
 
-.skills li svg {
+.skills_ul svg {
   flex-shrink: 0;
   width: 24px;
   height: 24px;
@@ -146,47 +144,34 @@ section p {
   color: #11131a;
 }
 
-.projects article {
+.projects_article {
   padding: 18px 16px;
   border-radius: 18px;
   background: #f7f8fb;
 }
 
-.projects article h3 {
+.projects_article > h3 {
   margin: 0 0 10px;
   font-size: 1.1rem;
 }
 
-.projects article p {
+.projects_article > p {
   margin: 0;
   color: #4d5060;
 }
 
-.contact div {
+.contact_div {
   display: grid;
   gap: 15px;
 }
 
-.contact p {
-  display: flex;
-  align-items: center;
-  flex-wrap: wrap;
-  gap: 10px;
-  margin: 0;
-  min-width: 0;
-  color: #454955;
-  overflow-wrap: normal;
-  word-break: normal;
-  white-space: normal;
-}
-
-.contact p svg {
+.contact_div > p svg {
   width: 24px;
   height: 24px;
   flex-shrink: 0;
 }
 
-.contact a {
+.contact_div a {
   color: #1e5fe7;
   text-decoration: none;
   overflow-wrap: anywhere;
@@ -217,11 +202,11 @@ footer {
     padding: 0 28px 56px;
   }
 
-  .skills ul {
+  .skills_ul {
     grid-template-columns: repeat(2, minmax(0, 1fr));
   }
 
-  .contact p {
+  .contact_div > p {
     align-items: center;
   }
 }

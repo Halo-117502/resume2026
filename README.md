@@ -12,4 +12,4 @@
 
 ## 배포 주소
 
-http://127.0.0.1:5500/resume2026/index.html#strengths
+https://halo-117502.github.io/resume2026/

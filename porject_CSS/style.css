@@ -114,6 +114,7 @@ section p {
 }
 
 #about > p {
+  border-radius: 18px;
   background: #f7f8fb;
 }
 
@@ -130,6 +131,7 @@ section p {
   display: flex;
   align-items: center;
   gap: 10px;
+  border-radius: 18px;
   background: #f7f8fb;
   color: #22232f;
   font-weight: 700;
@@ -168,6 +170,7 @@ section p {
 .contact_div {
   display: grid;
   gap: 15px;
+  border-radius: 18px;
   background: #f7f8fb;
 }
 
@@ -187,6 +190,7 @@ section p {
 }
 
 #strengths > p {
+  border-radius: 18px;
   background: #f7f8fb;
 }
 
@@ -225,7 +229,6 @@ footer {
 @media screen and (min-width: 1024px) {
   header {
     display: grid;
-    grid-template-columns: 1fr;
     gap: 10px;
     padding: 38px 0 28px;
     text-align: center;

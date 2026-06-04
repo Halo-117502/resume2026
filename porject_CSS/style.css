@@ -137,8 +137,6 @@ section p {
   font-weight: 700;
   font-size: 0.95rem;
   line-height: 1.4;
-  white-space: normal;
-  overflow-wrap: anywhere;
   min-width: 0;
 }
 
@@ -182,10 +180,7 @@ section p {
 
 .contact_div a {
   color: #1e5fe7;
-  text-decoration: none;
-  overflow-wrap: anywhere;
   word-break: break-word;
-  white-space: normal;
   min-width: 0;
 }
 
